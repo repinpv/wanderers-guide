@@ -1,7 +1,7 @@
 // @ts-ignore
 import { serve } from 'std/server';
 import { connect } from '../_shared/helpers.ts';
-import type { ContentType } from '../_shared/content';
+import type { ContentType } from '../_shared/content.d.ts';
 import { populateCollection } from '../_shared/vector-db.ts';
 
 serve(async (req: Request) => {

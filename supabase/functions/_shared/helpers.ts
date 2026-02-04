@@ -12,7 +12,7 @@ import type {
   JSendResponse,
   PublicUser,
   Trait,
-} from './content';
+} from './content.d.ts';
 
 export async function connect<T = Record<string, any>>(
   req: Request,

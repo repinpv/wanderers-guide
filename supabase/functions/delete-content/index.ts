@@ -8,7 +8,7 @@ import {
   deleteResponseWrapper,
   fetchData,
 } from '../_shared/helpers.ts';
-import type { ContentType } from '../_shared/content';
+import type { ContentType } from '../_shared/content.d.ts';
 
 interface DeleteContentBody {
   id: number;
