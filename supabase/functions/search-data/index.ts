@@ -11,7 +11,7 @@ import type {
   Rarity,
   Size,
 } from '../_shared/content.d.ts';
-import type { PostgrestFilterBuilder } from '@supabase/postgrest-js';
+import type { PostgrestFilterBuilder } from '@supabase/supabase-js';
 import { SupabaseClient } from '@supabase/supabase-js';
 
 serve(async (req: Request) => {
